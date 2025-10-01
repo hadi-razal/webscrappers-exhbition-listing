@@ -2,113 +2,131 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import (
-    TimeoutException,
-    NoSuchElementException,
-    StaleElementReferenceException,
-)
-import time
 import pandas as pd
+import time
 
+# --- URL ---
 URL = "https://intersec.ae.messefrankfurt.com/dubai/en/exhibitor-search/exhibitor-search.html"
 
-COMPANY_SEL = "h4.ex-exhibitor-search-result-item__headline span"
-BOOTH_SEL = "span.ex-exhibitor-search-result-item__location-text"
-CARD_SEL = "div.ex-exhibitor-search-result-item"
-PAGING_SEL = "div.m-paging"
-
-options = webdriver.ChromeOptions()
-options.add_argument("--start-maximized")
-
-driver = webdriver.Chrome(options=options)
-wait = WebDriverWait(driver, 20)
-
+# --- Setup Selenium ---
+driver = webdriver.Chrome()
 driver.get(URL)
-time.sleep(1)
+wait = WebDriverWait(driver, 15)
 
-data = []
-page = 1
+results = []
 
-try:
-    while True:
-       
-        wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, CARD_SEL)))
-        cards = driver.find_elements(By.CSS_SELECTOR, CARD_SEL)
+def scrape_detail_page():
+    """Scrape exhibitor detail page"""
+    try:
+        name = wait.until(EC.presence_of_element_located(
+            (By.CSS_SELECTOR, "h1.ex-exhibitor-detail__title-headline")
+        )).text.strip()
+    except:
+        name = ""
 
- 
-        for card in cards:
-            try:
-                company = card.find_element(By.CSS_SELECTOR, COMPANY_SEL).text.strip()
-            except Exception:
-                company = ""
-            try:
-                booth = card.find_element(By.CSS_SELECTOR, BOOTH_SEL).text.strip()
-            except Exception:
-                booth = ""
-            data.append({"Company Name": company, "Booth Number": booth})
+    city, country, telephone = "", "", ""
+    try:
+        address_block = driver.find_element(By.CSS_SELECTOR, ".ex-contact-box__address-field-full-address").text
+        lines = [l.strip() for l in address_block.split("\n") if l.strip()]
+        if len(lines) >= 2:
+            city = lines[-2]
+            country = lines[-1]
+    except:
+        pass
 
-        print(f"✅ Page {page}: scraped {len(cards)} companies.")
-        page += 1
+    try:
+        telephone = driver.find_element(By.CSS_SELECTOR, ".ex-contact-box__address-field-tel-number").text.strip()
+    except:
+        telephone = ""
 
-      
-        try:
-            paging_divs = driver.find_elements(By.CSS_SELECTOR, PAGING_SEL)
-            if not paging_divs:
-                print("No paging row found → stopping.")
+    booth_no = ""
+    try:
+        hall = driver.find_element(By.CSS_SELECTOR,
+            ".ex-contact-box__container-location-item-top-hall span.ex-contact-box__container-location-hall").text.strip()
+        booth = driver.find_element(By.CSS_SELECTOR,
+            ".ex-contact-box__container-location-item-top-stand span.ex-contact-box__container-location-stand").text.strip()
+        booth_no = f"{hall} - {booth}"
+    except:
+        pass
+
+    website, linkedin = "", ""
+    try:
+        website = driver.find_element(By.CSS_SELECTOR, "a.ex-exhibitor-detail__weblink").get_attribute("href")
+    except:
+        pass
+    try:
+        for link in driver.find_elements(By.CSS_SELECTOR, ".ex-exhibitor-detail__social a"):
+            href = link.get_attribute("href")
+            if "linkedin.com" in href:
+                linkedin = href
                 break
-            paging = paging_divs[-1]
+    except:
+        pass
 
-          
-            next_button = paging.find_element(By.XPATH, ".//button[.//span[contains(@class,'icon-right')]]")
-        except NoSuchElementException:
-            print("Next button not found in paging → end.")
-            break
+    return {
+        "Company Name": name,
+        "City": city,
+        "Country": country,
+        "Booth No": booth_no,
+        "Company Website": website,
+        "Company LinkedIn": linkedin,
+        "Company Contact": telephone
+    }
 
-        if next_button.get_attribute("disabled") is not None:
-            print("Next button is disabled → reached last page.")
-            break
+while True:
+    # --- Wait for all cards on current page ---
+    cards = wait.until(EC.presence_of_all_elements_located(
+        (By.CSS_SELECTOR, "div.col-xxs-6.col-md-4.col-sm-6.grid-item a")
+    ))
+    print(f"Found {len(cards)} cards on this page")
 
-  
-        prev_first = None
+    for i in range(len(cards)):
+        # Re-fetch elements to avoid stale reference
+        cards = driver.find_elements(By.CSS_SELECTOR, "div.col-xxs-6.col-md-4.col-sm-6.grid-item a")
+        driver.execute_script("arguments[0].scrollIntoView({block:'center'});", cards[i])
+        time.sleep(0.2)
+
+        # Open in new tab to scrape faster
+        driver.execute_script("window.open(arguments[0].href,'_blank');", cards[i])
+        driver.switch_to.window(driver.window_handles[1])
         try:
-            prev_first = cards[0].find_element(By.CSS_SELECTOR, COMPANY_SEL).text.strip()
-        except Exception:
-            prev_first = None
+            data = scrape_detail_page()
+            results.append(data)
+            print(data)  # log data
+        except Exception as e:
+            print("Error scraping card:", e)
+        driver.close()
+        driver.switch_to.window(driver.window_handles[0])
+        time.sleep(0.2)
 
- 
-        driver.execute_script("arguments[0].scrollIntoView({block:'center'});", next_button)
+    # --- Pagination: click last button in m-paging (next page) ---
+    try:
+        paging = driver.find_element(By.CSS_SELECTOR, "div.m-paging")
+        buttons = paging.find_elements(By.TAG_NAME, "button")
+        if len(buttons) == 0:
+            print("✅ No pagination found, scraping finished")
+            break
+
+        last_btn = buttons[-1]  # last button (next page)
+        if "disabled" in last_btn.get_attribute("class"):
+            print("✅ Reached last page")
+            break
+
+        driver.execute_script("arguments[0].scrollIntoView(true);", last_btn)
         time.sleep(0.3)
-        driver.execute_script("arguments[0].click();", next_button)
+        driver.execute_script("arguments[0].click();", last_btn)
+        print("➡ Going to next page")
+        time.sleep(1)
+        wait.until(EC.presence_of_all_elements_located(
+            (By.CSS_SELECTOR, "div.col-xxs-6.col-md-4.col-sm-6.grid-item a")
+        ))
+    except Exception as e:
+        print("✅ Pagination finished or error:", e)
+        break
 
-      
-        try:
-           
-            if prev_first:
-                
-                wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, COMPANY_SEL)))
-                wait.until(lambda d: d.find_elements(By.CSS_SELECTOR, COMPANY_SEL)[0].text.strip() != prev_first)
-            else:
-               
-                wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, CARD_SEL)))
+# --- Save all results ---
+df = pd.DataFrame(results)
+df.to_excel("exhibitors.xlsx", index=False)
+print("✅ Saved all data to exhibitors.xlsx")
 
-            
-            time.sleep(0.8)
-
-        except TimeoutException:
-            print("⚠️ Timed out waiting for next page to load after clicking next. Stopping to avoid duplicates.")
-            break
-        except StaleElementReferenceException:
-            
-            time.sleep(0.5)
-            continue
-
-finally:
-  
-    df = pd.DataFrame(data)
-    if not df.empty:
-        df.drop_duplicates(subset=["Company Name", "Booth Number"], inplace=True)
-        df.to_excel("exhibitors.xlsx", index=False)
-        print(f"✅ Saved {len(df)} unique rows to exhibitors.xlsx")
-    else:
-        print("No data scraped.")
-    driver.quit()
+driver.quit()
