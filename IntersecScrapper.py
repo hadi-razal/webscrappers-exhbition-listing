@@ -5,26 +5,31 @@ from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 import time
 
-# --- URL ---
-URL = "https://intersec.ae.messefrankfurt.com/dubai/en/exhibitor-search/exhibitor-search.html"
+URL = "https://automechanika-dubai.ae.messefrankfurt.com/dubai/en/exhibitor-search/exhibitor-list.html"
 
-# --- Setup Selenium ---
-driver = webdriver.Chrome()
+# --- Setup Chrome ---
+options = webdriver.ChromeOptions()
+options.add_argument("--start-maximized")
+options.add_argument("--disable-blink-features=AutomationControlled")
+driver = webdriver.Chrome(options=options)
+wait = WebDriverWait(driver, 20)
+
 driver.get(URL)
-wait = WebDriverWait(driver, 15)
 
 results = []
 
 def scrape_detail_page():
     """Scrape exhibitor detail page"""
+    # --- Company name ---
     try:
         name = wait.until(EC.presence_of_element_located(
-            (By.CSS_SELECTOR, "h1.ex-exhibitor-detail__title-headline")
-        )).text.strip()
+            (By.CSS_SELECTOR, "h1.ex-exhibitor-detail__title-headline"))
+        ).text.strip()
     except:
         name = ""
 
-    city, country, telephone = "", "", ""
+    # --- City & Country ---
+    city, country = "", ""
     try:
         address_block = driver.find_element(By.CSS_SELECTOR, ".ex-contact-box__address-field-full-address").text
         lines = [l.strip() for l in address_block.split("\n") if l.strip()]
@@ -34,34 +39,40 @@ def scrape_detail_page():
     except:
         pass
 
+    # --- Phone ---
     try:
         telephone = driver.find_element(By.CSS_SELECTOR, ".ex-contact-box__address-field-tel-number").text.strip()
     except:
         telephone = ""
 
+    # --- Booth No ---
     booth_no = ""
     try:
-        hall = driver.find_element(By.CSS_SELECTOR,
-            ".ex-contact-box__container-location-item-top-hall span.ex-contact-box__container-location-hall").text.strip()
-        booth = driver.find_element(By.CSS_SELECTOR,
-            ".ex-contact-box__container-location-item-top-stand span.ex-contact-box__container-location-stand").text.strip()
+        hall = driver.find_element(By.CSS_SELECTOR, ".ex-contact-box__container-location-hall").text.strip()
+        booth = driver.find_element(By.CSS_SELECTOR, ".ex-contact-box__container-location-stand").text.strip()
         booth_no = f"{hall} - {booth}"
     except:
         pass
 
-    website, linkedin = "", ""
+    # --- Website ---
+    website = ""
     try:
-        website = driver.find_element(By.CSS_SELECTOR, "a.ex-exhibitor-detail__weblink").get_attribute("href")
+        website_el = driver.find_element(By.CSS_SELECTOR, "a.ex-contact-box__website-link")
+        website = website_el.get_attribute("href").strip()
     except:
-        pass
+        website = ""
+
+    # --- LinkedIn ---
+    linkedin = ""
     try:
-        for link in driver.find_elements(By.CSS_SELECTOR, ".ex-exhibitor-detail__social a"):
+        social_links = driver.find_elements(By.CSS_SELECTOR, ".ex-contact-box__container-social a")
+        for link in social_links:
             href = link.get_attribute("href")
-            if "linkedin.com" in href:
+            if href and "linkedin.com" in href:
                 linkedin = href
                 break
     except:
-        pass
+        linkedin = ""
 
     return {
         "Company Name": name,
@@ -73,60 +84,66 @@ def scrape_detail_page():
         "Company Contact": telephone
     }
 
+# --- Pagination loop ---
+page = 1
 while True:
-    # --- Wait for all cards on current page ---
+    # Wait for cards to load
     cards = wait.until(EC.presence_of_all_elements_located(
-        (By.CSS_SELECTOR, "div.col-xxs-6.col-md-4.col-sm-6.grid-item a")
-    ))
-    print(f"Found {len(cards)} cards on this page")
+        (By.CSS_SELECTOR, "div.col-xxs-6.col-md-4.col-sm-6.grid-item a"))
+    )
+    print(f"📄 Page {page}: Found {len(cards)} exhibitors")
 
     for i in range(len(cards)):
-        # Re-fetch elements to avoid stale reference
+        # Re-locate to avoid stale element
         cards = driver.find_elements(By.CSS_SELECTOR, "div.col-xxs-6.col-md-4.col-sm-6.grid-item a")
         driver.execute_script("arguments[0].scrollIntoView({block:'center'});", cards[i])
-        time.sleep(0.2)
+        time.sleep(0.3)
 
-        # Open in new tab to scrape faster
-        driver.execute_script("window.open(arguments[0].href,'_blank');", cards[i])
+        # Open each in new tab
+        href = cards[i].get_attribute("href")
+        driver.execute_script("window.open(arguments[0],'_blank');", href)
         driver.switch_to.window(driver.window_handles[1])
+
         try:
             data = scrape_detail_page()
             results.append(data)
-            print(data)  # log data
+            print(f"✅ Scraped: {data['Company Name']}")
         except Exception as e:
-            print("Error scraping card:", e)
+            print("❌ Error:", e)
+
         driver.close()
         driver.switch_to.window(driver.window_handles[0])
-        time.sleep(0.2)
+        time.sleep(0.3)
 
-    # --- Pagination: click last button in m-paging (next page) ---
+    # --- Pagination ---
     try:
         paging = driver.find_element(By.CSS_SELECTOR, "div.m-paging")
         buttons = paging.find_elements(By.TAG_NAME, "button")
-        if len(buttons) == 0:
-            print("✅ No pagination found, scraping finished")
+        if not buttons:
+            print("✅ No pagination found.")
             break
 
-        last_btn = buttons[-1]  # last button (next page)
-        if "disabled" in last_btn.get_attribute("class"):
-            print("✅ Reached last page")
+        next_btn = buttons[-1]
+        if "disabled" in next_btn.get_attribute("class"):
+            print("✅ Reached last page.")
             break
 
-        driver.execute_script("arguments[0].scrollIntoView(true);", last_btn)
-        time.sleep(0.3)
-        driver.execute_script("arguments[0].click();", last_btn)
-        print("➡ Going to next page")
-        time.sleep(1)
+        driver.execute_script("arguments[0].scrollIntoView(true);", next_btn)
+        time.sleep(0.5)
+        driver.execute_script("arguments[0].click();", next_btn)
+        print("➡ Going to next page...")
+        page += 1
+        time.sleep(3)
         wait.until(EC.presence_of_all_elements_located(
-            (By.CSS_SELECTOR, "div.col-xxs-6.col-md-4.col-sm-6.grid-item a")
-        ))
+            (By.CSS_SELECTOR, "div.col-xxs-6.col-md-4.col-sm-6.grid-item a"))
+        )
     except Exception as e:
-        print("✅ Pagination finished or error:", e)
+        print("⚠️ Pagination finished or error:", e)
         break
 
-# --- Save all results ---
+# --- Save to Excel ---
 df = pd.DataFrame(results)
-df.to_excel("exhibitors.xlsx", index=False)
-print("✅ Saved all data to exhibitors.xlsx")
+df.to_excel("automechanika_exhibitors.xlsx", index=False)
+print("💾 Saved all data to automechanika_exhibitors.xlsx")
 
 driver.quit()
