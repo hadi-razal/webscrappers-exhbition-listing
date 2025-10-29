@@ -6,9 +6,9 @@ import pandas as pd
 import time, traceback
 
 # ---------------- CONFIG ----------------
-BASE_URL = "https://light-middle-east.ae.messefrankfurt.com/dubai/en/exhibitor-search.html?page={}&pagesize=90"
-SAVE_FILE = "lightinteligent.xlsx"
-TOTAL_PAGES = 2   # only 2 pages now
+BASE_URL = "https://intersec-ksa.ae.messefrankfurt.com/ksa/en/exhibitor-search.html?page={}&pagesize=90"
+SAVE_FILE = "Intersec_KSA_2025.xlsx"
+TOTAL_PAGES = 7   # only 2 pages now
 CHECKPOINT_INTERVAL = 50  # save after every 50 records
 
 # ---------------- SETUP ----------------
