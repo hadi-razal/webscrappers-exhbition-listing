@@ -1,0 +1,2419 @@
+15:21:39  INFO      ======================================================================
+15:21:39  INFO        IAAPA Expo Europe 2026 – Exhibitor Scraper  (Chrome / Selenium)
+15:21:39  INFO      ======================================================================
+15:21:39  INFO      ====== WebDriver manager ======
+15:21:41  INFO      Get LATEST chromedriver version for google-chrome
+15:21:41  INFO      Get LATEST chromedriver version for google-chrome
+15:21:41  INFO      Get LATEST chromedriver version for google-chrome
+15:21:41  INFO      WebDriver version 147.0.7727.117 selected
+15:21:41  INFO      Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/win32/chromedriver-win32.zip
+15:21:41  INFO      About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/win32/chromedriver-win32.zip
+15:21:41  INFO      Driver downloading response is 200
+15:21:42  INFO      Get LATEST chromedriver version for google-chrome
+15:21:42  INFO      Driver has been saved in cache [C:\Users\hadhi\.wdm\drivers\chromedriver\win64\147.0.7727.117]
+15:21:44  INFO      📋  Opening exhibitor list page …
+15:21:55  INFO        Loaded 0 click(s) of 'Load More Results'
+15:21:55  INFO        ✅  Found 200 unique exhibitors
+15:21:55  INFO        📊  Total: 200  |  Already done: 0  |  Remaining: 200
+15:21:55  INFO        [  1/200]  360 Karting & Sodikart & Apex Timing  (ID: 5234)
+15:21:58  INFO        [  2/200]  4escape  (ID: 10606)
+15:22:01  INFO        [  3/200]  501 FUN  (ID: 10641)
+15:22:05  INFO        [  4/200]  7x19 Building Adventure  (ID: 10718)
+15:22:09  INFO        [  5/200]  A&P Projects  (ID: 4836)
+15:22:13  INFO        [  6/200]  abc rides switzerland  (ID: 464)
+15:22:16  INFO        [  7/200]  accesso  (ID: 636)
+15:22:22  INFO        [  8/200]  Ace Amusement  (ID: 5999)
+15:22:25  INFO        [  9/200]  ACE MANUFACTORY LIMITED  (ID: 10490)
+15:22:28  INFO        [ 10/200]  Acro-Jeux  (ID: 5605)
+15:22:32  INFO        [ 11/200]  ADIPS Ltd.  (ID: 10734)
+15:22:35  INFO        [ 12/200]  Adler Amusement Equipment Co., Ltd.  (ID: 10126)
+15:22:38  INFO        [ 13/200]  Adrenaline  Constructions  (ID: 5115)
+15:22:41  INFO        [ 14/200]  Advatek Lighting  (ID: 10461)
+15:22:44  INFO        [ 15/200]  Aerodium  (ID: 2100)
+15:22:47  INFO        [ 16/200]  AEROPHILE  (ID: 536)
+15:22:51  INFO        [ 17/200]  AFACANPARK  (ID: 10542)
+15:22:55  INFO        [ 18/200]  AI Gaming Ltd  (ID: 10764)
+15:22:58  INFO        [ 19/200]  Aier Inflatable Group Co. Ltd  (ID: 4454)
+15:23:00  ERROR         ✗  WebDriver error on exhid=4454: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=147.0.7727.102)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc41d73]
+	chromedriver!(No symbol) [0xc40f4d]
+	chromedriver!(No symbol) [0xc5f8d9]
+	chromedriver!(No symbol) [0xcc3dbc]
+	chromedriver!(No symbol) [0xcda3a9]
+	chromedriver!(No symbol) [0xcbd606]
+	chromedriver!(No symbol) [0xc90039]
+	chromedriver!(No symbol) [0xc90df4]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!GetHandleVerifier [0xe53c78+18e58]
+	chromedriver!GetHandleVerifier [0xe53e42+19022]
+	chromedriver!GetHandleVerifier [0xe3d45f+263f]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:01  INFO        [ 20/200]  AIRO Amusement Equipment Co. Ltd.  (ID: 4053)
+15:23:01  ERROR         ✗  WebDriver error on exhid=4053: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51e10]
+	chromedriver!(No symbol) [0xc40d8e]
+	chromedriver!(No symbol) [0xc5f8d9]
+	chromedriver!(No symbol) [0xcc3dbc]
+	chromedriver!(No symbol) [0xcda3a9]
+	chromedriver!(No symbol) [0xcbd606]
+	chromedriver!(No symbol) [0xc90039]
+	chromedriver!(No symbol) [0xc90df4]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!GetHandleVerifier [0xe53c78+18e58]
+	chromedriver!GetHandleVerifier [0xe53e42+19022]
+	chromedriver!GetHandleVerifier [0xe3d45f+263f]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:04  INFO        [ 21/200]  Airquee Group inc. Airparx  (ID: 8666)
+15:23:04  ERROR         ✗  WebDriver error on exhid=8666: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:06  INFO        [ 22/200]  AirTrack Factory  (ID: 7916)
+15:23:06  ERROR         ✗  WebDriver error on exhid=7916: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:07  INFO        [ 23/200]  Aix-Hydro  (ID: 10733)
+15:23:07  ERROR         ✗  WebDriver error on exhid=10733: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:09  INFO        [ 24/200]  Akrobat  (ID: 4752)
+15:23:09  ERROR         ✗  WebDriver error on exhid=4752: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:11  INFO        [ 25/200]  Alberici  (ID: 4910)
+15:23:11  ERROR         ✗  WebDriver error on exhid=4910: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:11  INFO        ✅  Checkpoint saved  (25 total scraped)
+15:23:12  INFO        [ 26/200]  All Things Nice Vending Ltd.  (ID: 10560)
+15:23:12  ERROR         ✗  WebDriver error on exhid=10560: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:14  INFO        [ 27/200]  Alterface  (ID: 586)
+15:23:14  ERROR         ✗  WebDriver error on exhid=586: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:16  INFO        [ 28/200]  ALTUS / KOALA EQUIPMENT  (ID: 2519)
+15:23:16  ERROR         ✗  WebDriver error on exhid=2519: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:17  INFO        [ 29/200]  ALV International d.o.o.  (ID: 10635)
+15:23:17  ERROR         ✗  WebDriver error on exhid=10635: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:20  INFO        [ 30/200]  Ameco Playgrounds  (ID: 2945)
+15:23:20  ERROR         ✗  WebDriver error on exhid=2945: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:21  INFO        [ 31/200]  Amodino China  (ID: 10102)
+15:23:21  ERROR         ✗  WebDriver error on exhid=10102: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:23  INFO        [ 32/200]  AMUSOIRE  (ID: 8987)
+15:23:23  ERROR         ✗  WebDriver error on exhid=8987: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:25  INFO        [ 33/200]  Anhui Thindy Slide co., Ltd.  (ID: 10437)
+15:23:25  ERROR         ✗  WebDriver error on exhid=10437: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:26  INFO        [ 34/200]  Ankam Water Park Equipment  (ID: 4322)
+15:23:26  ERROR         ✗  WebDriver error on exhid=4322: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:29  INFO        [ 35/200]  Antalya Park  (ID: 5092)
+15:23:29  ERROR         ✗  WebDriver error on exhid=5092: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:30  INFO        [ 36/200]  Aoqi Inflatables Limited  (ID: 599)
+15:23:30  ERROR         ✗  WebDriver error on exhid=599: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:32  INFO        [ 37/200]  APARC WATER SLIDES  (ID: 7227)
+15:23:32  ERROR         ✗  WebDriver error on exhid=7227: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:34  INFO        [ 38/200]  API WATER FUN  (ID: 1888)
+15:23:34  ERROR         ✗  WebDriver error on exhid=1888: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:37  INFO        [ 39/200]  Apple Industries  (ID: 293)
+15:23:37  ERROR         ✗  WebDriver error on exhid=293: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:39  INFO        [ 40/200]  Aqua Drolics  (ID: 2757)
+15:23:39  ERROR         ✗  WebDriver error on exhid=2757: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:41  INFO        [ 41/200]  Aquafun Parks Products  (ID: 10462)
+15:23:41  ERROR         ✗  WebDriver error on exhid=10462: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:42  INFO        [ 42/200]  AQUAKITA  (ID: 409)
+15:23:42  ERROR         ✗  WebDriver error on exhid=409: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:44  INFO        [ 43/200]  Aqualand Industries  (ID: 8435)
+15:23:44  ERROR         ✗  WebDriver error on exhid=8435: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:46  INFO        [ 44/200]  Aqualine Waterparks & Technology  (ID: 10496)
+15:23:46  ERROR         ✗  WebDriver error on exhid=10496: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:47  INFO        [ 45/200]  AQUARENA GmbH  (ID: 1693)
+15:23:47  ERROR         ✗  WebDriver error on exhid=1693: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:49  INFO        [ 46/200]  AQUATEC Europe  (ID: 4248)
+15:23:49  ERROR         ✗  WebDriver error on exhid=4248: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:51  INFO        [ 47/200]  ArcaMaster Inc  (ID: 10612)
+15:23:51  ERROR         ✗  WebDriver error on exhid=10612: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:53  INFO        [ 48/200]  Arctic  (ID: 10760)
+15:23:53  ERROR         ✗  WebDriver error on exhid=10760: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:55  INFO        [ 49/200]  Arihant Water Park Equipment  (ID: 229)
+15:23:55  ERROR         ✗  WebDriver error on exhid=229: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:57  INFO        [ 50/200]  AromaPrime  (ID: 10600)
+15:23:57  ERROR         ✗  WebDriver error on exhid=10600: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:23:57  INFO        ✅  Checkpoint saved  (50 total scraped)
+15:23:59  INFO        [ 51/200]  Art Attack FX  (ID: 493)
+15:23:59  ERROR         ✗  WebDriver error on exhid=493: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:01  INFO        [ 52/200]  ART Engineering  (ID: 8114)
+15:24:01  ERROR         ✗  WebDriver error on exhid=8114: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:03  INFO        [ 53/200]  Arti FX Curious Creations  (ID: 7825)
+15:24:03  ERROR         ✗  WebDriver error on exhid=7825: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:04  INFO        [ 54/200]  Arti Grafiche Julia S.p.A  (ID: 10682)
+15:24:04  ERROR         ✗  WebDriver error on exhid=10682: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:06  INFO        [ 55/200]  Association of Indoor Play  (ID: 10759)
+15:24:06  ERROR         ✗  WebDriver error on exhid=10759: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:07  INFO        [ 56/200]  AStation  (ID: 10714)
+15:24:07  ERROR         ✗  WebDriver error on exhid=10714: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:10  INFO        [ 57/200]  ATELIER EMOCIO  (ID: 5093)
+15:24:10  ERROR         ✗  WebDriver error on exhid=5093: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:12  INFO        [ 58/200]  ATEN Loisirs  (ID: 7223)
+15:24:12  ERROR         ✗  WebDriver error on exhid=7223: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:13  INFO        [ 59/200]  Atlantis Waterparks & Pool Systems  (ID: 4776)
+15:24:13  ERROR         ✗  WebDriver error on exhid=4776: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:16  INFO        [ 60/200]  ATRAX EXPO  (ID: 5224)
+15:24:16  ERROR         ✗  WebDriver error on exhid=5224: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:18  INFO        [ 61/200]  AttractionBiz  (ID: 10628)
+15:24:18  ERROR         ✗  WebDriver error on exhid=10628: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:20  INFO        [ 62/200]  Attractions Factory  (ID: 7660)
+15:24:20  ERROR         ✗  WebDriver error on exhid=7660: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:22  INFO        [ 63/200]  Attractions.io  (ID: 2598)
+15:24:22  ERROR         ✗  WebDriver error on exhid=2598: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:24  INFO        [ 64/200]  Attraktion! GmbH  (ID: 3327)
+15:24:24  ERROR         ✗  WebDriver error on exhid=3327: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:26  INFO        [ 65/200]  Attraxion  (ID: 10721)
+15:24:26  ERROR         ✗  WebDriver error on exhid=10721: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:28  INFO        [ 66/200]  aufwind.rides  (ID: 5915)
+15:24:28  ERROR         ✗  WebDriver error on exhid=5915: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:30  INFO        [ 67/200]  Avius  (ID: 711)
+15:24:30  ERROR         ✗  WebDriver error on exhid=711: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:31  INFO        [ 68/200]  Axess  (ID: 1934)
+15:24:31  ERROR         ✗  WebDriver error on exhid=1934: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:33  INFO        [ 69/200]  BALPPA  (ID: 10741)
+15:24:33  ERROR         ✗  WebDriver error on exhid=10741: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:34  INFO        [ 70/200]  Bandai Namco Amusement Europe Ltd  (ID: 1402)
+15:24:34  ERROR         ✗  WebDriver error on exhid=1402: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:37  INFO        [ 71/200]  BATTLE START  (ID: 10045)
+15:24:37  ERROR         ✗  WebDriver error on exhid=10045: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:39  INFO        [ 72/200]  BattleKart Europe SA  (ID: 8360)
+15:24:39  ERROR         ✗  WebDriver error on exhid=8360: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:40  INFO        [ 73/200]  Beat The Storm  (ID: 8494)
+15:24:40  ERROR         ✗  WebDriver error on exhid=8494: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:42  INFO        [ 74/200]  Beckhoff Automation  (ID: 8595)
+15:24:42  ERROR         ✗  WebDriver error on exhid=8595: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:44  INFO        [ 75/200]  Beijing Red Sun Bowling Technology Co., Ltd  (ID: 10605)
+15:24:44  ERROR         ✗  WebDriver error on exhid=10605: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:44  INFO        ✅  Checkpoint saved  (75 total scraped)
+15:24:46  INFO        [ 76/200]  Beijing YIDELI Amusement Equipment Co.,ltd  (ID: 10614)
+15:24:46  ERROR         ✗  WebDriver error on exhid=10614: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:48  INFO        [ 77/200]  Beijing Yingda Technology Development Co., Ltd  (ID: 10549)
+15:24:48  ERROR         ✗  WebDriver error on exhid=10549: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:50  INFO        [ 78/200]  Bellus Toys & Creative Concepts  (ID: 10475)
+15:24:50  ERROR         ✗  WebDriver error on exhid=10475: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:53  INFO        [ 79/200]  Berliner Seilfabrik – Play equipment for life  (ID: 4888)
+15:24:53  ERROR         ✗  WebDriver error on exhid=4888: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:55  INFO        [ 80/200]  BERTAZZON  (ID: 105)
+15:24:55  ERROR         ✗  WebDriver error on exhid=105: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:56  INFO        [ 81/200]  Beslepark Amusement Co., Ltd  (ID: 7295)
+15:24:56  ERROR         ✗  WebDriver error on exhid=7295: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:24:59  INFO        [ 82/200]  BIGAIRBAG  (ID: 5328)
+15:24:59  ERROR         ✗  WebDriver error on exhid=5328: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:01  INFO        [ 83/200]  Binzhou Colorful Nets Amusement Equipment Co., Ltd.  (ID: 10484)
+15:25:01  ERROR         ✗  WebDriver error on exhid=10484: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:03  INFO        [ 84/200]  BITRONIC  (ID: 8731)
+15:25:03  ERROR         ✗  WebDriver error on exhid=8731: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:05  INFO        [ 85/200]  Biz Karts  (ID: 8016)
+15:25:05  ERROR         ✗  WebDriver error on exhid=8016: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:07  INFO        [ 86/200]  Black Light Unity: Blacklight Print & Design  (ID: 7271)
+15:25:07  ERROR         ✗  WebDriver error on exhid=7271: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:09  INFO        [ 87/200]  Blacklight Attractions  (ID: 10657)
+15:25:09  ERROR         ✗  WebDriver error on exhid=10657: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:11  INFO        [ 88/200]  BMI Leisure  (ID: 4078)
+15:25:11  ERROR         ✗  WebDriver error on exhid=4078: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:14  INFO        [ 89/200]  BOB'S SPACE RACERS, INC.  (ID: 8)
+15:25:14  ERROR         ✗  WebDriver error on exhid=8: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:15  INFO        [ 90/200]  BoldMove Nation  (ID: 8030)
+15:25:15  ERROR         ✗  WebDriver error on exhid=8030: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:17  INFO        [ 91/200]  Bolliger & Mabillard Inc.  (ID: 156)
+15:25:17  ERROR         ✗  WebDriver error on exhid=156: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:18  INFO        [ 92/200]  Booked it  (ID: 8429)
+15:25:18  ERROR         ✗  WebDriver error on exhid=8429: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:20  INFO        [ 93/200]  bookingkit GmbH  (ID: 10696)
+15:25:20  ERROR         ✗  WebDriver error on exhid=10696: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:22  INFO        [ 94/200]  Bowling Europe  (ID: 7167)
+15:25:22  ERROR         ✗  WebDriver error on exhid=7167: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:23  INFO        [ 95/200]  Bravo Amusement  (ID: 8051)
+15:25:23  ERROR         ✗  WebDriver error on exhid=8051: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:26  INFO        [ 96/200]  Brogent Technologies, Inc.  (ID: 1296)
+15:25:26  ERROR         ✗  WebDriver error on exhid=1296: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:28  INFO        [ 97/200]  BRUNSWICK BOWLING PRODUCTS  (ID: 256)
+15:25:28  ERROR         ✗  WebDriver error on exhid=256: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:30  INFO        [ 98/200]  Bubble Inc. Ltd  (ID: 10707)
+15:25:30  ERROR         ✗  WebDriver error on exhid=10707: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:32  INFO        [ 99/200]  BURSAPARK INDOOR PLAYGROUNDS  (ID: 8052)
+15:25:32  ERROR         ✗  WebDriver error on exhid=8052: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:34  INFO        [100/200]  BUSSINK OBSERVATION WHEELS  (ID: 7062)
+15:25:34  ERROR         ✗  WebDriver error on exhid=7062: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:34  INFO        ✅  Checkpoint saved  (100 total scraped)
+15:25:36  INFO        [101/200]  Buzzpark  (ID: 1247)
+15:25:36  ERROR         ✗  WebDriver error on exhid=1247: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:38  INFO        [102/200]  Cangzhou Warrior Outward Bound appliance Co., Ltd.  (ID: 10317)
+15:25:38  ERROR         ✗  WebDriver error on exhid=10317: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:41  INFO        [103/200]  Carrousel des Desserts  (ID: 10701)
+15:25:41  ERROR         ✗  WebDriver error on exhid=10701: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:43  INFO        [104/200]  CBK Technik Group  (ID: 8651)
+15:25:43  ERROR         ✗  WebDriver error on exhid=8651: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:45  INFO        [105/200]  CDX Technology  (ID: 10591)
+15:25:45  ERROR         ✗  WebDriver error on exhid=10591: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:46  INFO        [106/200]  CHAIRKIT Fördertechnik GmbH  (ID: 2901)
+15:25:46  ERROR         ✗  WebDriver error on exhid=2901: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:48  INFO        [107/200]  Chance Rides, LLC  (ID: 9)
+15:25:48  ERROR         ✗  WebDriver error on exhid=9: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xe4b373+10553]
+	chromedriver!GetHandleVerifier [0xe4b4a4+10684]
+	chromedriver!(No symbol) [0xc51c4e]
+	chromedriver!(No symbol) [0xc8f2c5]
+	chromedriver!(No symbol) [0xcbd726]
+	chromedriver!(No symbol) [0xcb8c62]
+	chromedriver!(No symbol) [0xcb8281]
+	chromedriver!(No symbol) [0xc2501e]
+	chromedriver!(No symbol) [0xc255be]
+	chromedriver!(No symbol) [0xc25a9d]
+	chromedriver!GetHandleVerifier [0x10cddb4+292f94]
+	chromedriver!GetHandleVerifier [0x10c937d+28e55d]
+	chromedriver!GetHandleVerifier [0x10e8215+2ad3f5]
+	chromedriver!GetHandleVerifier [0xe64c18+29df8]
+	chromedriver!GetHandleVerifier [0xe6c6fd+318dd]
+	chromedriver!(No symbol) [0xc24b99]
+	chromedriver!(No symbol) [0xc241e0]
+	chromedriver!GetHandleVerifier [0x1232bef+3f7dcf]
+	KERNEL32!BaseThreadInitThunk [0x759e5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f0d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f0d7c1+231]
+
+15:25:49  WARNING   Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/54c81ba88a8d04cd5cd093efdc17b474
+15:25:53  INFO      ╔════════════════════════════════════════════════════════════════════╗
+15:25:53  INFO      ║   IAAPA Expo Europe 2026 – MULTI-TAB PARALLEL SCRAPER              ║
+15:25:53  INFO      ║   Tabs per batch : 50    |  Headless: False                             ║
+15:25:53  INFO      ╚════════════════════════════════════════════════════════════════════╝
+15:25:53  INFO      ====== WebDriver manager ======
+15:25:54  INFO      Get LATEST chromedriver version for google-chrome
+15:25:54  INFO      Get LATEST chromedriver version for google-chrome
+15:25:54  INFO      Driver [C:\Users\hadhi\.wdm\drivers\chromedriver\win64\147.0.7727.117\chromedriver-win32/chromedriver.exe] found in cache
+15:25:55  INFO        ♻   Resuming — 100 exhibitors already scraped
+15:25:55  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+15:25:55  INFO      📋  Step 1 — Loading full exhibitor list …
+15:25:55  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+15:26:06  INFO        Clicked 'Load More' 0 time(s).
+15:26:06  INFO        ✅  Found 200 unique exhibitors
+15:26:06  INFO      
+  📊  Total    : 200
+15:26:06  INFO        📊  Done     : 100
+15:26:06  INFO        📊  Remaining: 100
+15:26:06  INFO        📊  Batches  : 2 × 50 tabs
+
+15:26:06  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+15:26:06  INFO      🚀  Step 2 — Parallel scraping  (100 exhibitors, 50 tabs/batch)
+15:26:06  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+15:26:06  INFO      
+  📦  Batch 1/2 — opening 50 tabs …
+15:26:41  INFO        ✅  [  1]  Clear Digital                                  Country: United States         Booth: S4536
+15:26:42  INFO        ✅  [  2]  CSE Entertainment                              Country: Finland               Booth: S1302
+15:26:42  INFO        ✅  [  3]  Clip 'n Climb                                  Country: United Kingdom        Booth: S1202
+15:26:42  INFO        ✅  [  4]  DIERESIN SRL                                   Country: Italy                 Booth: S1744
+15:26:42  INFO        ✅  [  5]  Comply Amusement Safety Ltd                    Country: United Kingdom        Booth: S1433
+15:26:42  INFO        ✅  [  6]  Crazy Jump Italy                               Country: Italy                 Booth: S800
+15:26:42  INFO        ✅  [  7]  Combat Laser Games Ltd                         Country: United Kingdom        Booth: S3847
+15:26:42  INFO        ✅  [  8]  Carrousel des Desserts                         Country: France                Booth: S3340
+15:26:42  INFO        ✅  [  9]  Cosmic Leisure Ltd & LX-Game                   Country: China Mainland        Booth: S1244
+15:26:42  INFO        ✅  [ 10]  DFX                                            Country: United States         Booth: South Exhibit Halls S3-S23 — TT001
+15:26:42  INFO        ✅  [ 11]  Dead Walk Designs LTD                          Country: United Kingdom        Booth: S4809
+15:26:42  INFO        ✅  [ 12]  CommandCentr                                   Country: United Kingdom        Booth: S5027
+15:26:42  INFO        ✅  [ 13]  CBK Technik Group                              Country: Poland                Booth: S245
+15:26:42  INFO        ✅  [ 14]  CIMOLAI TECHNOLOGY                             Country: Italy                 Booth: S4427
+15:26:42  INFO        ✅  [ 15]  CDX Technology                                 Country: Netherlands           Booth: S1738
+15:26:42  INFO        ✅  [ 16]  Chuliang Technology (HK) Limited               Country: China                 Booth: S3640
+15:26:42  INFO        ✅  [ 17]  Chfuntek Limited Company                       Country: Germany               Booth: S1344
+15:26:42  INFO        ✅  [ 18]  Cogan SRL                                      Country: Italy                 Booth: S2214
+15:26:42  INFO        ✅  [ 19]  COGS Show Control                              Country: United Kingdom        Booth: S4040
+15:26:42  INFO        ✅  [ 20]  Department for Business and Trade              Country: United Kingdom        Booth: S1040
+15:26:42  INFO        ✅  [ 21]  Curator Live Photo & Video Solutions           Country: United States         Booth: S3517
+15:26:42  INFO        ✅  [ 22]  Chance Rides, LLC                              Country: United States         Booth: S4002
+15:26:42  INFO        ✅  [ 23]  Convious                                       Country: Netherlands           Booth: S4449
+15:26:42  INFO        ✅  [ 24]  Citizen Systems Europe GmbH                    Country: Germany               Booth: S1701
+15:26:42  INFO        ✅  [ 25]  Cangzhou Warrior Outward Bound appliance Co.,  Country: China Mainland        Booth: S3333
+15:26:42  INFO        ✅  [ 26]  Cool Things - IGT s.p.a.                       Country: San Marino            Booth: S700
+15:26:42  INFO        ✅  [ 27]  Colordrops Creations                           Country: Romania               Booth: S4830
+15:26:42  INFO        ✅  [ 28]  CHAIRKIT Fördertechnik GmbH                    Country: Austria               Booth: S2917
+15:26:42  INFO        ✅  [ 29]  Dennypay UAB                                   Country: Lithuania             Booth: S1343
+15:26:42  INFO        ✅  [ 30]  CONDUCTR                                       Country: United Kingdom        Booth: S3627
+15:26:42  INFO        ✅  [ 31]  Cici's Inflatables Co.,LTD                     Country: China Mainland        Booth: S1945
+15:26:42  INFO        ✅  [ 32]  Cube escape game                               Country: Norway                Booth: S3645
+15:26:42  INFO        ✅  [ 33]  Cuddles & friends                              Country: Denmark               Booth: S1032
+15:26:42  INFO        ✅  [ 34]  Cheer Amusement                                Country: China                 Booth: S703
+15:26:42  INFO        ✅  [ 35]  DELTRAIN                                       Country: Portugal              Booth: S1311
+15:26:42  INFO        ✅  [ 36]  Concept Factory BV                             Country: Belgium               Booth: S3937
+15:26:42  INFO        ✅  [ 37]  CLS LED BV                                     Country: Netherlands           Booth: S4506
+15:26:42  INFO        ✅  [ 38]  Buzzpark                                       Country: Turkey                Booth: S217
+15:26:42  INFO        ✅  [ 39]  City Golf Europe                               Country: Sweden                Booth: S1012 | S812
+15:26:42  INFO        ✅  [ 40]  Crystal                                        Country: France                Booth: S4327
+15:26:42  INFO        ✅  [ 41]  Crenexus Culture & Tech (Shenzhen) Co., Ltd.   Country: China                 Booth: S4143
+15:26:42  INFO        ✅  [ 42]  Delta Strike International Ltd.                Country: New Zealand           Booth: S2012
+15:26:42  INFO        ✅  [ 43]  Concept 1900                                   Country: France                Booth: S2623
+15:26:42  INFO        ✅  [ 44]  Co-creation Dinosaur                           Country: China Mainland        Booth: S4728
+15:26:42  INFO        ✅  [ 45]  Dewesoft UK Ltd                                Country: United Kingdom        Booth: S2731
+15:26:42  INFO        ✅  [ 46]  Detail Creations                               Country: Netherlands           Booth: S3731
+15:26:42  INFO        ✅  [ 47]  DIGITAL CENTRE                                 Country: Spain                 Booth: S4116
+15:26:42  INFO        ✅  [ 48]  Dartsee Ltd.                                   Country: Hungary               Booth: S3337
+15:26:42  INFO        ✅  [ 49]  DEAL EXPO 2027                                 Country: United Arab Emirates  Booth: S1235
+15:26:42  INFO        ✅  [ 50]  DECOLED s.r.o.                                 Country: Czech Republic        Booth: N4734 | S3445
+15:26:44  INFO        💾  Checkpoint  (50 saved so far)
+15:26:46  INFO      
+  📦  Batch 2/2 — opening 50 tabs …
+15:27:21  INFO        ✅  [ 51]  Ellis & Associates                             Country: United States         Booth: S2826
+15:27:21  INFO        ✅  [ 52]  EMBED                                          Country: United Arab Emirates  Booth: S2707
+15:27:21  INFO        ✅  [ 53]  ELMAC II SRL                                   Country: Italy                 Booth: S233
+15:27:21  INFO        ✅  [ 54]  Dronisos                                       Country: France                Booth: S5325
+15:27:21  INFO        ✅  [ 55]  Eurogames Srl                                  Country: Italy                 Booth: S4122
+15:27:21  INFO        ✅  [ 56]  EPIC Outdoor Cinema                            Country: United States         Booth: S5307
+15:27:21  INFO        ✅  [ 57]  Discosmash BV                                  Country: Belgium               Booth: S5348
+15:27:21  INFO        ✅  [ 58]  EVtrain AS                                     Country: Norway                Booth: N4903
+15:27:21  INFO        ✅  [ 59]  EPT Photography                                Country: United Kingdom        Booth: S4207
+15:27:21  INFO        ✅  [ 60]  EMILIANA LUNA PARK                             Country: Italy                 Booth: S1817
+15:27:21  INFO        ✅  [ 61]  EDSUN                                          Country: France                Booth: S3606
+15:27:21  INFO        ✅  [ 62]  ETF Ride Systems                               Country: Netherlands           Booth: S1218
+15:27:21  INFO        ✅  [ 63]  ETERNITY BOWLING                               Country: China Mainland        Booth: S2810
+15:27:21  INFO        ✅  [ 64]  DOTTO TRAINS                                   Country: Italy                 Booth: S1523
+15:27:21  INFO        ✅  [ 65]  Disco-Designer.com                             Country: Bulgaria              Booth: S429 | S628
+15:27:21  INFO        ✅  [ 66]  Dino Works                                     Country: China Mainland        Booth: S826
+15:27:21  INFO        ✅  [ 67]  DOF Robotics                                   Country: Turkey                Booth: S317 | S417
+15:27:21  INFO        ✅  [ 68]  ELAUT GROUP                                    Country: Belgium               Booth: S223
+15:27:21  INFO        ✅  [ 69]  dotmill                                        Country: Korea, Republic of    Booth: N4821
+15:27:21  INFO        ✅  [ 70]  Experience UK                                  Country: United Kingdom        Booth: S837
+15:27:21  INFO        ✅  [ 71]  entertainment resource GmbH                    Country: Germany               Booth: S1022
+15:27:21  INFO        ✅  [ 72]  Eurolockers B.v                                Country: Netherlands           Booth: S1512
+15:27:21  INFO        ✅  [ 73]  Elephant Sculpture Art Company Ltd.            Country: China Mainland        Booth: S5113
+15:27:21  INFO        ✅  [ 74]  Diplik GmbH                                    Country: Germany               Booth: S5236
+15:27:21  INFO        ✅  [ 75]  Fantasy Rides Industry                         Country: Italy                 Booth: S1242
+15:27:21  INFO        ✅  [ 76]  Electroproject                                 Country: Netherlands           Booth: S5132
+15:27:21  INFO        ✅  [ 77]  Director's Choice Limited                      Country: Hong Kong SAR, China  Booth: S337
+15:27:21  INFO        ✅  [ 78]  Euro-Matic Kft.                                Country: Hungary               Booth: S132
+15:27:21  INFO        ✅  [ 79]  Extreme Works                                  Country: Turkey                Booth: S816
+15:27:21  INFO        ✅  [ 80]  Expian                                         Country: United Kingdom        Booth: South Exhibit Halls S3-S23 — TT003
+15:27:21  INFO        ✅  [ 81]  Dinosaurier-Park International GmbH & Co. KG   Country: Germany               Booth: S329
+15:27:21  INFO        ✅  [ 82]  Expression Capital Partners LLP                Country: United Kingdom        Booth: 
+15:27:21  INFO        ✅  [ 83]  ELI Play                                       Country: Netherlands           Booth: S1312
+15:27:21  INFO        ✅  [ 84]  DubiDo Factory                                 Country: Bulgaria              Booth: S1736
+15:27:21  INFO        ✅  [ 85]  DigiTickets                                    Country: United Kingdom        Booth: N4717
+15:27:21  INFO        ✅  [ 86]  EuroAmusement Professional                     Country: Germany               Booth: S1700
+15:27:21  INFO        ✅  [ 87]  DONGGUAN UNISTAR INDUSTRIAL LIMITED            Country: China                 Booth: S131
+15:27:21  INFO        ✅  [ 88]  Electrocoin                                    Country: United Kingdom        Booth: S2203
+15:27:21  INFO        ✅  [ 89]  Digonex-Automated Dynamic Pricing              Country: United States         Booth: S1714
+15:27:21  INFO        ✅  [ 90]  FABBRI GROUP                                   Country: Italy                 Booth: S719
+15:27:21  INFO        ✅  [ 91]  ELTELPARK MEDIATOYS ITALY                      Country: Italy                 Booth: S1833
+15:27:21  INFO        ✅  [ 92]  E-Service (Europe) Ltd                         Country: United Kingdom        Booth: S3201
+15:27:21  INFO        ✅  [ 93]  Falgas Germany                                 Country: Germany               Booth: S4018
+15:27:21  INFO        ✅  [ 94]  ENTTEC Ltd                                     Country: United Kingdom        Booth: S4317
+15:27:21  INFO        ✅  [ 95]  EMPEX WATERTOYS-CANADA                         Country: Canada                Booth: S2410
+15:27:21  INFO        ✅  [ 96]  DongGuan Tongxin Paper CO., LTD                Country: China                 Booth: South Exhibit Halls S3-S23 — TT002
+15:27:21  INFO        ✅  [ 97]  Dreamland Playground Co.,Ltd                   Country: China                 Booth: S4802
+15:27:21  INFO        ✅  [ 98]  Dutch Wheels                                   Country: Netherlands           Booth: S2812
+15:27:21  INFO        ✅  [ 99]  Experimental Park                              Country: France                Booth: N4704
+15:27:21  INFO        ✅  [100]  East Sports                                    Country: China                 Booth: S1843
+15:27:23  INFO        💾  Checkpoint  (100 saved so far)
+15:27:23  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+15:27:23  INFO        💾  Saving final output files …
+15:27:23  INFO        💾  CSV   → iaapa_output\iaapa_exhibitors_20260428_152553.csv
+15:27:23  INFO        💾  JSON  → iaapa_output\iaapa_exhibitors_20260428_152553.json
+15:27:23  INFO        💾  Excel → iaapa_output\iaapa_exhibitors_20260428_152553.xlsx
+15:27:23  INFO      ╔════════════════════════════════════════════════════════════════════╗
+15:27:23  INFO      ║   🎉  COMPLETE!                                                    ║
+15:27:23  INFO      ║   Scraped  : 200  exhibitors                                  ║
+15:27:23  INFO      ║   Time     : 1.5 min                                            ║
+15:27:23  INFO      ║   Speed    : 133.1 exhibitors/min                              ║
+15:27:23  INFO      ║   Output   : C:\Users\hadhi\Desktop\Programming\Fairplatz IT\Web sc  ║
+15:27:23  INFO      ╚════════════════════════════════════════════════════════════════════╝
+15:27:23  INFO      
+  📈  Stats:
+15:27:23  INFO            Has Website   : 80/200
+15:27:23  INFO            Has LinkedIn  : 3/200
+15:27:23  INFO            Has Facebook  : 3/200
+15:27:23  INFO            Has Instagram : 3/200
+15:27:25  INFO        🔒  Chrome closed.

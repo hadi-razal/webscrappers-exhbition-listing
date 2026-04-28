@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
 URL = "https://www.theairportshow.com/en-gb/exhibitor-directory.html#/"
 
 opts = webdriver.ChromeOptions()
